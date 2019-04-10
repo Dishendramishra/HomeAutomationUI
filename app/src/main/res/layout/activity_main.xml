@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/fan1"
+            android:layout_height="130dp"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:layout_weight=".50"
+            android:background="@drawable/fan"
+            android:scaleType="fitXY"
+            android:text="1"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/fan2"
+            android:layout_height="130dp"
+            android:layout_column="1"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/fan"
+            android:scaleType="fitXY"
+            android:text="2"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/socket"
+            android:layout_height="130dp"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/socket"
+            android:scaleType="fitXY" />
+
+        <Button
+            android:id="@+id/chandelier"
+            android:layout_height="130dp"
+            android:layout_column="1"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/chandelier"
+            android:scaleType="fitXY" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/watertank"
+            android:layout_height="130dp"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/watertank"
+            android:scaleType="fitXY" />
+
+        <Button
+            android:id="@+id/door"
+            android:layout_height="130dp"
+            android:layout_column="1"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/door"
+            android:scaleType="fitXY" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/ledBulb"
+            android:layout_height="130dp"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/lamp"
+            android:scaleType="fitXY" />
+
+        <Button
+            android:id="@+id/tubelight"
+            android:layout_height="130dp"
+            android:layout_column="1"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/tubelight"
+            android:scaleType="fitXY" />
+
+    </TableRow>
+
+
+</TableLayout>

@@ -1,0 +1,4 @@
+#Tue Apr 09 14:44:30 IST 2019
+base.0=/home/dishendra/AndroidStudioProjects/HomeAutomationUI/app/build/intermediates/transforms/dexMerger/debug/2
+path.0=classes.dex
+renamed.0=classes.dex
